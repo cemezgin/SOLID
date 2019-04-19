@@ -3,12 +3,6 @@ public class Rectangle{
  public double width;
 }
 
-public class AreaCalculator{
-  public double calculateRectangleArea(Rectangle rectangle){
-    return rectangle.length *rectangle.width;
-  }
-}
-
 public class Circle{
  public double radius; 
 }
