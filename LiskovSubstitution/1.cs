@@ -34,8 +34,8 @@ static void Main(string[] args)
     Car car = new Ferrari();
     car.Run();
     car.OpenAirConditioning();
-// Sıkıntı yok her şey yolunda.
+
     car = new Murat131();
     car.Run();
-    car.OpenAirConditioning(); // ?
+    car.OpenAirConditioning();
 }

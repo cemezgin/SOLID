@@ -18,22 +18,22 @@ public interface IFileLog: ILog
 }
 
 public class FileLogger : IFileLog
-   {
-       public void CheckFileSize()
-       {
+{
+    public void CheckFileSize()
+    {
            //Code to check log file size
-       }
+    }
  
-       public void GenerateFileName()
-       {
-           //Code to generate a new file name
-       }
+    public void GenerateFileName()
+    {
+          //Code to generate a new file name
+    }
         
-       public void Log(string message)
-       {
+    public void Log(string message)
+    {
            //Code to log data to the log file
-       }
-   }
+    }
+}
  
    public class DBLogger : IDBLog
    {

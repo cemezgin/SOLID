@@ -26,6 +26,7 @@ namespace LiskovSubstitutionPrinciple
  
     public class Murat131 : Car
     {
+        
     }
  
 
