@@ -29,7 +29,7 @@
         public string MessageBody { get; set; }
     }
 
-    public class SmsMessageServer:IMessageServer
+    public class SmsMessageServer : IMessageServer
     {
         public bool Send(IMessage message)
         {
@@ -40,7 +40,7 @@
 
     public class SmtpMessageServer : IMessageServer
     {
-        public bool Send(IMessage message)
+        public bool Send(IEmailMessage message)
         {
             //Do the real work here
             return true;
